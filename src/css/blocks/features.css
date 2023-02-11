@@ -1,0 +1,27 @@
+.features {
+    --grid-placement: auto-fit;
+    --grid-min-item-size: clamp(16rem, 33%, 20rem);
+    --gutter: var(--space-s-xl);
+    --flow-space: var(--space-s);
+    text-align: center;
+}
+
+.features .svg {
+    display: block;
+    margin-inline: auto;
+    height: 4em;
+
+    /* To change any SVGs color inside the image  */
+    filter: invert(48%) sepia(0%) saturate(0%) hue-rotate(0deg) brightness(200%) contrast(100%);
+}
+
+
+.features a {
+    text-decoration: none;
+}
+
+.features a:hover {
+    text-decoration: underline;
+    text-decoration-thickness: 0.08ex;
+    text-underline-offset: 0.2ex;
+}

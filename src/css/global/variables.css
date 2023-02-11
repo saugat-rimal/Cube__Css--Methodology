@@ -1,0 +1,61 @@
+/* @link https://utopia.fyi/space/calculator?c=320,16,1.2,1350,20,1.414,8,1,&s=0.75|0.5|0.25,2|3|5|8|13,s-l&g=s,l,xl,12 */
+
+:root {
+
+    --color-dark: #404040;
+    --color-light: #F3F3F3;
+    --color-light-glare: #FFFFFF;
+    --color-primary: #0042bf;
+    --color-primary-glare: #d8e2f4;
+    --color-secondary: #ee5141;
+    --color-secondary-glare: #ffe3e5;
+
+    /* for spacing  */
+    --space-xs: clamp(0.75rem, calc(0.69rem + 0.29vw), 0.94rem);
+    --space-s: clamp(1.00rem, calc(0.92rem + 0.39vw), 1.25rem);
+    --space-m: clamp(2.00rem, calc(1.84rem + 0.78vw), 2.50rem);
+    --space-l: clamp(3.00rem, calc(2.77rem + 1.17vw), 3.75rem);
+    --space-xl: clamp(5.00rem, calc(4.61rem + 1.94vw), 6.25rem);
+
+    /* One-up pairs */
+    --space-xs-s: clamp(0.75rem, calc(0.59rem + 0.78vw), 1.25rem);
+    --space-s-m: clamp(1.00rem, calc(0.73rem + 1.36vw), 1.88rem);
+    --space-m-l: clamp(1.50rem, calc(1.19rem + 1.55vw), 2.50rem);
+    --space-l-xl: clamp(2.00rem, calc(1.46rem + 2.72vw), 3.75rem);
+    --space-xl-2xl: clamp(3.00rem, calc(2.38rem + 3.11vw), 5.00rem);
+    --space-2xl-3xl: clamp(4.00rem, calc(2.91rem + 5.44vw), 7.50rem);
+
+
+    /* Custom pairs */
+    --space-s-l: clamp(1.00rem, calc(0.53rem + 2.33vw), 2.50rem);
+    --space-s-xl: clamp(1.00rem, calc(0.15rem + 4.27vw), 3.75rem);
+    --space-l-2xl: clamp(2.00rem, calc(1.07rem + 4.66vw), 5.00rem);
+
+
+
+    /* for fonts sizes */
+    --size-step-0: clamp(1.00rem, calc(0.92rem + 0.39vw), 1.25rem);
+    --size-step-1: clamp(1.20rem, calc(1.02rem + 0.88vw), 1.77rem);
+    --size-step-2: clamp(1.44rem, calc(1.11rem + 1.65vw), 2.50rem);
+    --size-step-3: clamp(1.73rem, calc(1.17rem + 2.80vw), 3.53rem);
+    --size-step-4: clamp(2.07rem, calc(1.17rem + 4.54vw), 5.00rem);
+    --size-step-5: clamp(2.49rem, calc(1.07rem + 7.11vw), 7.07rem);
+    --size-step-6: clamp(2.99rem, calc(0.81rem + 10.88vw), 9.99rem);
+
+    --min-width: 320px;
+    --max-width: 1350px;
+
+    --font-base: "Inter", "Segoe UI", "Roboto", "Helvetica Neue", "Arial", "sans-serif";
+    --font-serif: "Georgia", "sans-serif";
+
+
+    --gutter: var(--space-s-m);
+    --border-radius: var(--size-step-1);
+    --transition-base: 250ms ease;
+    --transition-movement: 200ms linear;
+    --transition-fade: 200ms ease;
+    --transition-bounce: 500ms cubic-bezier(0.5, 0.05, 0.2, 1.5);
+    --tracking: -0.05ch;
+    --tracking-s: -0.075ch;
+
+}
