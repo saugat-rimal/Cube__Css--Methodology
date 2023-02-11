@@ -32,7 +32,6 @@
     --space-l-2xl: clamp(2.00rem, calc(1.07rem + 4.66vw), 5.00rem);
 
 
-
     /* for fonts sizes */
     --size-step-0: clamp(1.00rem, calc(0.92rem + 0.39vw), 1.25rem);
     --size-step-1: clamp(1.20rem, calc(1.02rem + 0.88vw), 1.77rem);
