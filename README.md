@@ -13,3 +13,7 @@ This differs somewhat to other popular methodologies like BEM (opens new window)
 If you were to compare methodologies: it would be safe to say that CUBE CSS takes most of its inspiration from BEM (opens new window). A good way to think of it is a step back from BEM’s principles.
 
 This is because the core of BEM is blocks, whereas with CUBE CSS, the core is CSS. The cascade and inheritance are embraced, not avoided, so by the time you get down to blocks in CUBE, they become much more insignificant.
+
+## Does CUBE CSS scale?
+Just like CSS: CUBE CSS scales perfectly well and has been used to power massive websites, tiny blogs, mobile apps and even intranet software. This methodology has roots in both huge projects that service millions of people all the way down to small websites and starter kits (opens new window), thanks to its flexibility. This flexibility has also enabled CUBE CSS to work in both very old and very new codebases.
+
